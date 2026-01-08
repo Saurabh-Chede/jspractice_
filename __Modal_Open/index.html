@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Center Modal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <button class="open-btn" onclick="openModal()">Open Modal</button>
+
+  <!-- Overlay -->
+ 
+
+  <!-- Modal -->
+  <div id="modal">
+    <button class="close-btn" onclick="closeModal()">×</button>
+    <h2>Center Modal</h2>
+    <p>This is a modal opened from center.</p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
