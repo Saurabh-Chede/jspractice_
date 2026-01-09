@@ -10,3 +10,8 @@ function closeModal() {
   modal.classList.remove("active");
   overlay.classList.remove("active");
 }
+
+function freeze(){
+  modal.classList.remove("active")
+  overlay.classList.remove('active')
+}
